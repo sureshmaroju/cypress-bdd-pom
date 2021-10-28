@@ -1,10 +1,10 @@
 /// <reference types='Cypress' />
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
 import { times } from 'lodash';
-import HomePage from '../../pageobjects/HomePage';
-import SearchResultsPage from '../../pageobjects/SearchResultsPage';
-import ProductPage from '../../pageobjects/ProductPage';
-import BasketPage from '../../pageobjects/BasketPage';
+import HomePage from '../../integration/pageobjects/HomePage';
+import SearchResultsPage from '../../integration/pageobjects/SearchResultsPage';
+import ProductPage from '../../integration/pageobjects/ProductPage';
+import BasketPage from '../../integration/pageobjects/BasketPage';
    /**
     * @author Suresh Chary Maroju
     *

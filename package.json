@@ -14,11 +14,22 @@
   "author": "Suresh Chary Maroju",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.19.5",
+    "allure-commandline": "^2.13.8",
+    "cucumber-html-reporter": "^5.5.0",
     "cypress": "^7.1.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-xpath": "^1.6.2",
     "lodash": "^4.17.21"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/json",
+      "filePrefix": "",
+      "fireSuffix": ".cucumber"
+    }
   }
 }

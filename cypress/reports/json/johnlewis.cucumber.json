@@ -1,0 +1,172 @@
+[
+  {
+    "description": "    This feature performs below operaions on John Lewis website\n    accepts the cookie banner\n    browses for any product or products(s) of your choice\n    selects multiple quantities of that product or product(s)\n    adds the selected product to basket\n    deletes product or products(s) quantities from the basket\n    clears cookies at the end of the test",
+    "keyword": "Feature",
+    "name": "John Lewis Product search and add to basket",
+    "line": 3,
+    "id": "john-lewis-product-search-and-add-to-basket",
+    "tags": [],
+    "uri": "johnlewis.feature",
+    "elements": [
+      {
+        "id": "john-lewis-product-search-and-add-to-basket;as-a-user,-i-want-to-search-a-product-and-add-it-to-basket",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a user, I want to search a product and add it to basket",
+        "tags": [
+          {
+            "name": "@search",
+            "line": 13
+          },
+          {
+            "name": "@basket",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I Open John Lewis website",
+            "result": {
+              "status": "passed",
+              "duration": 21551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I accept the cookie banner",
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I browse a product \"rocking horse\"",
+            "result": {
+              "status": "passed",
+              "duration": 41004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "list of products should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on first product",
+            "result": {
+              "status": "passed",
+              "duration": 6504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should navigate to product info page",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I increase quantity and click on Add to your basket",
+            "result": {
+              "status": "passed",
+              "duration": 3004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "product should be added to basket",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click on go to basket",
+            "result": {
+              "status": "passed",
+              "duration": 8521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should navigate to your basket page",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I remove items from basket",
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "basket should be empty",
+            "result": {
+              "status": "passed",
+              "duration": 3035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I clear the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "cookies should be deleted",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+node_modules
+allure-report
+cypress/videos
+package-lock.json
