@@ -20,7 +20,8 @@
     "cypress": "^7.1.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
     "cypress-xpath": "^1.6.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
@@ -28,8 +29,7 @@
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/reports/json",
-      "filePrefix": "",
-      "fireSuffix": ".cucumber"
+      "fieSuffix": ".cucumber"
     }
   }
 }
